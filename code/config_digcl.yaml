@@ -1,0 +1,27 @@
+cora_ml:
+  seed: 39788
+  learning_rate: 0.001
+  num_hidden: 128
+  num_proj_hidden: 64
+  activation: "relu"
+  base_model: "GCNConv"
+  num_layers: 2
+  drop_feature_rate_1: 0.3
+  drop_feature_rate_2: 0.4
+  tau: 0.4
+  num_epochs: 600
+  weight_decay: 0.00001
+citeseer:
+  seed: 38108
+  learning_rate: 0.001
+  num_hidden: 128
+  num_proj_hidden: 64
+  activation: "prelu"
+  base_model: "GCNConv"
+  num_layers: 2
+  drop_feature_rate_1: 0.2
+  drop_feature_rate_2: 0.1
+  tau: 0.9
+  num_epochs: 300
+  weight_decay: 0.00005
+
