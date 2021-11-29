@@ -1,8 +1,36 @@
 # Directed Graph Contrastive Learning
 
+**[Paper](https://proceedings.neurips.cc/paper/2021/file/a3048e47310d6efaa4b1eaf55227bc92-Paper.pdf)** | **[Poster](https://github.com/flyingtango/DiGCL/blob/main/docs/digcl_poster.pdf)** | **[Supplementary](https://github.com/flyingtango/DiGCL/blob/main/docs/digcl_supp.pdf)** 
+
 The PyTorch implementation of Directed Graph Contrastive Learning (DiGCL).
 
 In this paper, we present the first contrastive learning framework for learning directed graph representation.
+
+
+<center>Illustration of Laplacian perturbation</center>
+<center><img src="imgs/lp.png" alt="augmentation" style="zoom:50%;" /></center>
+
+&nbsp;
+<center>Illustration of DiGCN model using Laplacian perturbation</center>
+<center><img src="imgs/framework.png" alt="framework" style="zoom:100%;" /></center>
+&nbsp;
+
+
+
+
+If you find our work useful, please considering citing
+
+```
+@article{tong2021directed,
+  title={Directed Graph Contrastive Learning},
+  author={Tong, Zekun and Liang, Yuxuan and Ding, Henghui and Dai, Yongxing and Li, Xinke and Wang, Changhu},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  year={2021}
+}
+```
+
+
 
 ## Requirements
 
